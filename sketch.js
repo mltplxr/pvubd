@@ -15,7 +15,7 @@ function setup() {
 }
 
 function draw() {
-  background(220, 200, 200);
+  clear();
 
   // Display and update each block
   for (let i = 0; i < blocks.length; i++) {
